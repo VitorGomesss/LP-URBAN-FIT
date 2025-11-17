@@ -74,7 +74,9 @@ nav{
     flex-direction: column;
     align-items: flex-start;
     gap: 25px;
+
     flex-basis: 50%;
+
     position: relative;
     z-index: 10;
 }
@@ -110,10 +112,12 @@ nav{
 }
 
 .right-hero{
+    height: 100%;
+
     position: relative;
     z-index: 5;
     flex-basis: 50%;
-    height: 100%;
+    
 }
 .academia-right-hero{
     position: absolute;
@@ -129,11 +133,28 @@ nav{
 }
 
 .mulher-right-hero{
+    height: 950px;
+
     position: absolute;
     right: 300px;
     bottom: -180px;
     z-index: 3;
-    opacity: 0.8;
-    height: 950px;
+
+    opacity: 0.83;
     
+}
+
+.divisao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 50px;
+
+    color: #29311B;
+    background-color: #A0FC01;
+
+    font-weight: 600;
+    letter-spacing: 4px;
 }
