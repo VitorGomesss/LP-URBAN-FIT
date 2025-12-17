@@ -158,3 +158,60 @@ nav{
     font-weight: 600;
     letter-spacing: 4px;
 }
+
+.section2{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.section2 h1{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 48px;
+    font-weight: 400;
+    color: #A0FC01;
+}
+
+.bento-grid{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 12px;
+}
+
+.bento-up, .bento-down{
+    display: flex;
+    gap: 12px;
+}
+
+.bento-up img, .bento-down img{
+    border-radius: 10px;
+}
+
+.bento1{
+    width: 503px;
+    object-fit: cover;
+}
+
+.bento5{
+    width: 377px;
+    object-fit: cover;
+}
+
+.bento4{
+    width: 341.69px;
+    object-fit: cover;
+}
+
+.bento2{
+    width: 589px;
+    object-fit: cover;
+}
+
+.bento3{
+    width: 646px;
+    object-fit: cover;
+}
