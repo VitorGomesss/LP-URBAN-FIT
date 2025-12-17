@@ -215,3 +215,18 @@ nav{
     width: 646px;
     object-fit: cover;
 }
+
+.divisao-modalidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 50px;
+
+    color: #29311B;
+    background-color: #A0FC01;
+
+    font-weight: 600;
+    letter-spacing: 4px;
+}
