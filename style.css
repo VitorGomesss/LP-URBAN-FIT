@@ -299,3 +299,250 @@ nav{
     font-weight: 600;
     letter-spacing: 4px;
 }
+
+.section4{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: aliceblue;
+    overflow: hidden;
+}
+
+.cards-planos{
+    display: flex;
+    gap: 100px;
+}
+
+.card-iron{
+    width: 300px;
+    height: 500px;
+
+    background-color: #1E1E1E;
+    border: #29311B solid 2px;
+    border-radius: 20px;
+
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    align-items: flex-start;
+    margin-top: 60px;
+}
+
+.card-iron p:first-child {
+    color: white;
+    font-size: 25px;
+    margin-bottom: -10px;
+}
+
+.card-iron h2{
+    color: #A0FC01;
+    font-size: 35px ;
+    margin: 0;
+}
+
+.iron-preco{
+    display: flex;
+    align-items: baseline;
+    color: white;
+    margin-top: 20px;
+}
+
+.check-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#botao-card-iron {
+    width: 180px;
+    height: 38px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 20px;
+    border: #A0FC01 solid 0.5px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    align-self: center; 
+
+    transition: 0.3s all ease;
+    
+}
+
+#botao-card-iron:hover{
+    transform: translateY(-4px);
+    box-shadow: 0px 1px 5px 01px #A0FC01;
+}
+
+
+.card-urban{
+    width: 360px;
+    height: 560px;
+
+    background-color: #1E1E1E;
+    border: #A0FC01 solid 2px;
+    border-radius: 0px 40px 0px 20px;
+
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    align-items: flex-start;
+    position: relative;
+}
+
+.card-urban p:first-child {
+    color: white;
+    font-size: 25px;
+    margin-bottom: -10px;
+}
+
+.card-urban h2{
+    color: #A0FC01;
+    font-size: 35px ;
+    margin: 0;
+}
+
+.badge-popular{
+    position: absolute;
+    top: 46px;
+    right: 32px;
+
+    padding: 14px 28px;
+    background-color: #404040;
+    border-radius: 16px;
+
+    font-size: 12px;
+    font-weight: 600;
+    color: #A0FC01;
+}
+
+.urban-preco{
+    display: flex;
+    align-items: baseline;
+    color: white;
+    margin-top: 20px;
+}
+
+.check-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#botao-card-urban {
+    width: 200px;
+    height: 50px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 20px;
+    border: #000000 solid 1px;
+    background-color: #A0FC01;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    align-self: center; 
+
+    transition: 0.5s all ease;
+    
+}
+
+#botao-card-urban:hover{
+    transform: translateY(-4px);
+    box-shadow: 0px 1px 20px 6px #000000;
+} 
+
+.card-black{
+    width: 300px;
+    height: 500px;
+
+    background-color: #1E1E1E;
+    border: #29311B solid 2px;
+    border-radius: 20px;
+
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    align-items: flex-start;
+    margin-top: 60px;
+}
+
+.card-black p:first-child {
+    color: white;
+    font-size: 25px;
+    margin-bottom: -10px;
+}
+
+.card-black h2{
+    color: #A0FC01;
+    font-size: 35px ;
+    margin: 0;
+}
+
+.black-preco{
+    display: flex;
+    align-items: baseline;
+    color: white;
+    margin-top: 20px;
+}
+
+.check-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#botao-card-black {
+    width: 180px;
+    height: 38px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 20px;
+    border: #A0FC01 solid 0.5px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    align-self: center; 
+
+    transition: 0.3s all ease;
+    
+}
+
+#botao-card-black:hover{
+    transform: translateY(-4px);
+    box-shadow: 0px 1px 5px 01px #A0FC01;
+}
+
+.blur-planos{
+    position: absolute;
+    z-index: -1;
+    left: -600px;
+    top: -300px;
+}
+
+
+
+
