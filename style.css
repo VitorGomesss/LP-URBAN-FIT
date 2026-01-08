@@ -543,6 +543,77 @@ nav{
     top: -300px;
 }
 
+.divisao-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    width: 100%;
+    height: 50px;
 
+    color: #29311B;
+    background-color: #A0FC01;
 
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+.section5{
+    width: 100%;
+    height: 450px;
+    padding: 60px  95px;
+}
+
+.footer-content{
+    max-width: 1500px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.left-contatos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    color: #D5D5D5;
+}
+
+.item-contato{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.right-sobre{
+    max-width: 500px;
+}
+
+.right-sobre h2{
+    font-size: 40px;
+    color: #A0FC01;
+    margin-bottom: 20px;
+}
+
+.right-sobre p{
+    color: #D5D5D5;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.social-links{
+    display: flex;
+    gap: 15px;
+}
+
+.social-links img{
+    cursor: pointer;
+    transition: transform 0.2s ;
+}
+
+.social-links img:hover{
+    transform: scale(1.1);
+}
